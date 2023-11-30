@@ -1,12 +1,23 @@
 body
 {
   background: AliceBlue;
-  font-family: Arial;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1
 {
   color: black;
   text-align: center;
+  width: 100%;
+  display: block;
+}
+h1:hover
+{
+  color: black;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 .assign
 {
@@ -29,4 +40,11 @@ a
 {
 padding: 10px;
   border:2px solid midnightblue;
+}
+.assign
+{
+  width:20%;
+  box-shadow: 8px 8px midnightblue;
+  display:block;
+  border-radius: 20px;
 }
